@@ -1,8 +1,11 @@
 from typing import List
-
 def selectionSort(array, size) -> List[int]:
-  # Write your code here
-
+  for step in range(n):
+    mi = step
+    for i in range(step +1,n):
+      if array[i] < array[mi]:
+        mi = i
+        (array[step], array[mi]) = (array[mi],array[step])
 # Do not change the following code
 input_data = input()
 data = []
