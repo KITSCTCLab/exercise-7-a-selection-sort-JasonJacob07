@@ -9,7 +9,8 @@ def selectionSort(array, size) -> List[int]:
                   min_idx = i
           # put min at the correct position
           (array[step], array[min_idx]) = (array[min_idx], array[step])
-
+          return array
+        
 input_data = input()
 data = []
 for item in input_data.split(', '):
