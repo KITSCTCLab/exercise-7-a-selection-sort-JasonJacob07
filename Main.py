@@ -1,8 +1,8 @@
 from typing import List
 def selectionSort(array, size) -> List[int]:
-  for step in range(n):
+  for step in range(size):
     mi = step
-    for i in range(step +1,n):
+    for i in range(step +1,size):
       if array[i] < array[mi]:
         mi = i
         (array[step], array[mi]) = (array[mi],array[step])
